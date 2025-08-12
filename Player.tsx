@@ -51,17 +51,12 @@ export const Player = () => {
     [player]
   );
 
-  return (
-    <View style={styles.flex1}>
-      <PlayerView style={styles.flex1} player={player} onReady={onReady} />
-    </View>
-  );
+  return <PlayerView style={styles.player} player={player} onReady={onReady} />;
 };
 
 const styles = StyleSheet.create({
-  flex1: {
-    flex: 1,
-    backgroundColor: "black",
+  player: {
+    width: "100%",
     aspectRatio: 16 / 9,
   },
 });
