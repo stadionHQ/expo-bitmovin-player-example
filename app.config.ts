@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const bundleIdentifier = "com.anthlasserre.bitmovinplayer";
+const bundleIdentifier = "com.stadionHQ.bitmovinplayer";
 const playerLicenseKey = process.env.EXPO_PUBLIC_BITMOVIN_PLAYER_LICENSE_KEY;
 
 export default {
